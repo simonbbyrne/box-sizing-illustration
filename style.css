@@ -1,0 +1,86 @@
+p {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+.box-options {
+    margin: 20px 0 20px 0;
+}
+
+.box-options li {
+    margin: 10px;
+    display: block;
+}
+
+.box {
+    margin: 10px 0 10px 0;
+}
+
+.content:before {
+    content: "Content";
+}
+
+.padding {
+    padding: 40px;
+    position: relative;
+}
+
+.padding:before {
+    content: "Padding";
+    position: absolute;
+    left: 1%;
+    top: 10%;
+    width: 100%;
+}
+
+.border {
+    padding: 40px;
+    position: relative;
+}
+
+.border:before {
+    content: "Border";
+    position: absolute;
+    left: 1%;
+    top: 6%;
+    width: 100%;
+}
+
+.margin {
+    padding: 40px;
+    position: relative;
+}
+
+.margin:before {
+    content: "Margin";
+    position: absolute;
+    left: 1%;
+    top: 4%;
+    width: 100%;
+}
+
+.box-sizing-list {
+    margin: 20px;
+    text-align: center;
+}
+
+.dashed {
+    border: 2px dashed #65c157;
+}
+
+.solid {
+    border: 2px solid #65c157;
+}
+
+.selected {
+    background: rgba(101, 193, 87, 0.3);
+}

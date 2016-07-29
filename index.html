@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <header>
+            <h1>Box Sizing</h1>
+            <p>Used to change the default CSS box model</p>
+        </header>
+        <ul class="box-options">
+            <li><strong>content-box:</strong> width and height are measured by including only the content. Padding, border and margin is not included</li>
+            <li><strong>padding-box:</strong> width and height include content and padding. Border and margin is not included</li>
+            <li><strong>border-box:</strong> width and height include content, padding and border. Margin is not included</li>
+        </ul>
+        <div class="box">
+            <div class="margin solid">
+                <div class="border dashed">
+                    <div class="padding solid">
+                        <div class="content dashed"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="box-sizing-list">
+            <li>
+                <button name="content-box">Content-Box</button>
+            </li>
+            <li>
+                <button name="padding-box">Padding-Box</button>
+            </li>
+            <li>
+                <button name="border-box">Border-Box</button>
+            </li>
+        </ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
