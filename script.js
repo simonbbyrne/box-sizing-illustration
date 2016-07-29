@@ -29,4 +29,12 @@
 
         return false;
     });
+
+    var box1 = document.querySelector('.box1'),
+        result1 = document.querySelector('.result1'),
+        box2 = document.querySelector('.box2'),
+        result2 = document.querySelector('.result2');
+
+    result1.innerHTML = 'width: ' + box1.offsetWidth + ' height: ' + box1.offsetHeight;
+    result2.innerHTML = 'width: ' + box2.offsetWidth + ' height: ' + box2.offsetHeight;
 })();
